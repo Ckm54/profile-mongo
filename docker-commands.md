@@ -23,3 +23,10 @@ mongo
 --name mongo-express \
 mongo-express
 `
+
+## using docker compose
+From the application directory run:
+`docker compose -f mongo.yaml up`
+
+This creates a network. To stop running containers run:
+`docker compose -f mongo.yaml down`
